@@ -106,3 +106,52 @@
     transform: rotate(360deg);
   }
 }
+
+.App-register-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.App-register-content .App-form-group {
+  margin-bottom: 15px;
+}
+
+.App-register-content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.App-register-content input,
+.App-register-content select,
+.App-register-content textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.App-register-content textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+.dashboard {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.dashboard h2 {
+  margin-bottom: 15px;
+}
+
+.dashboard p {
+  margin: 10px 0;
+}
