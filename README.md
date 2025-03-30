@@ -52,7 +52,7 @@ PG_DB=postgres
 PORT=3001" > .env
 
 # Start server
-npm start
+node index.js
 ```
 
 ### 4. Run Frontend
