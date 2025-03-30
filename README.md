@@ -10,6 +10,8 @@
 
 ## Setup Instructions
 
+> Reminder to edit the JWT secret token during production!
+
 ### 1. Database Setup
 - Login to the local database 
 - Create new users table
